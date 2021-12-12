@@ -47,6 +47,9 @@ ul {
 .site-list:focus {
   color: var(--accent-site-color);
 }
+.site-nav .site-list.current {
+  color: var(--accent-site-color);
+}
 
 header {
   font-family: Roboto;
