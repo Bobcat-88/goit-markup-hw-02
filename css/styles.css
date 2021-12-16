@@ -22,8 +22,7 @@ body {
   background-color: #ffffff;
   color: var(--first-site-color);
 }
-
-ul {
+.mark-off {
   list-style: none;
 }
 
@@ -51,24 +50,17 @@ ul {
   color: var(--accent-site-color);
 }
 
-header {
+/* .site-nav,
+.site-contacts { */
+.site-list {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--title-site-color);
-}
-
-header a {
-  text-decoration: none;
-  color: #212121;
-}
-
-.site-nav,
-.site-contacts {
   list-style: none;
+  color: var(--title-site-color);
 }
 
 /* герой */
@@ -199,7 +191,9 @@ header a {
   color: var(--first-site-color);
 }
 /* футер */
-footer {
+.adress,
+.adress-text,
+.adress-list {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -209,10 +203,13 @@ footer {
   background: var(--basic-bg-color);
   color: #ffffff;
 }
-footer a {
+.adress a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-footer .logo {
+.adress .logo {
   color: #ffffff;
+}
+.adress-text {
+  text-decoration: none;
 }
