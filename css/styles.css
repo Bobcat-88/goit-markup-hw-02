@@ -172,13 +172,20 @@ body {
 }
 
 /* Портфоліо */
-.filter {
+.portfolio {
   font-family: Roboto;
+  font-style: normal;
+}
+
+.buttons {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+
+  background-color: #f5f4fa;
   color: var(--title-site-color);
 }
 
@@ -186,17 +193,6 @@ body {
 .buttons:focus {
   color: #ffffff;
   background-color: var(--accent-site-color);
-}
-
-.buttons {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: #f5f4fa;
-  color: var(--title-site-color);
 }
 
 .list-title {
@@ -208,7 +204,6 @@ body {
 }
 
 .category {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -216,6 +211,7 @@ body {
 
   color: var(--first-site-color);
 }
+
 /* футер */
 .adress {
   background: var(--basic-bg-color);
