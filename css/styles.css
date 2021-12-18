@@ -19,10 +19,12 @@
 }
 /*  тіло */
 body {
+  font-family: Roboto, 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
   background-color: #ffffff;
   color: var(--first-site-color);
-
-  font-family: Roboto, 'Segoe UI', sans-serif;
 }
 
 .list {
@@ -100,8 +102,7 @@ body {
 }
 
 .button {
-  font-family: Roboto;
-
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -119,7 +120,6 @@ body {
 
 /* переваги */
 .features .list-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -129,8 +129,6 @@ body {
   color: var(--title-site-color);
 }
 .text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -140,7 +138,6 @@ body {
 
 /* як ми працюємо */
 .titles {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -150,36 +147,25 @@ body {
   color: var(--title-site-color);
 }
 
-.names {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-site-color);
-}
-
+.names,
 .specialization {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--first-site-color);
 }
 
-/* Портфоліо */
-.portfolio {
-  font-family: Roboto;
-  font-style: normal;
+.names {
+  font-weight: 500;
+  color: var(--title-site-color);
 }
 
+/* Портфоліо */
+
 .buttons {
+  cursor: pointer;
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -204,7 +190,6 @@ body {
 }
 
 .category {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -218,15 +203,11 @@ body {
 }
 
 .adress .text {
+  font-style: normal;
   color: #ffffff;
 }
 .adress .link {
   font-style: normal;
-  /* font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em; */
-
   color: rgba(255, 255, 255, 0.6);
 }
 .adress .logo {
