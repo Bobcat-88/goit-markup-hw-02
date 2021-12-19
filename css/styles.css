@@ -51,7 +51,8 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.logo-blu {
+.logo-blu,
+.adress-logo-blu {
   color: var(--accent-site-color);
 }
 
@@ -213,7 +214,13 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
-.adress .logo {
+
+.adress > .adress-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
